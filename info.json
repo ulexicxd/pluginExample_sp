@@ -1,4 +1,4 @@
 {
-    "Name": "Test Plugin",
-    "Description": "Test for a plugin"
+    "Name": "Essentials",
+    "Description": "Contains some useful stuff for plugins. Always loaded by default."
 }
