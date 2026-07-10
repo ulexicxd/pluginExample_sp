@@ -59,8 +59,6 @@ function timer:IncrementTick(value)
     self.current += value
 end
 
-return timer
-
 
 --// Plugin
 local module = {
