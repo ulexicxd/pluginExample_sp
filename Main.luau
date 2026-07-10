@@ -22,7 +22,7 @@ timer.__index = timer
 function timer.new(data)
     local self = setmetatable(timerDefaults, timer)
 
-    for key, value in pairs(data) do
+    for key, value in pairs(data or {}) do
         self[key] = value
     end
 
